@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Red"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/servTit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Yellow"
+        android:fontFamily="@font/cooper"
+        android:text="SERVICIOS"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/Red"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40pt">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/buy"
+                android:layout_width="118dp"
+                android:layout_height="match_parent"
+                android:padding="10px"
+                app:srcCompat="@drawable/buyicon" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comicboys"
+                android:lines="3"
+                android:padding="20px"
+                android:text="Compra y adquiere\nde forma inmediata\nla chaqueta de tus sueños."
+                android:textColor="@color/white"
+                android:textSize="15pt" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5px"
+            android:layout_marginTop="100px">
+
+            <ImageView
+                android:id="@+id/clean"
+                android:layout_width="118dp"
+                android:layout_height="118dp"
+                app:srcCompat="@drawable/lawndry" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comicboys"
+                android:lines="3"
+                android:padding="20px"
+                android:text="Tráenos tus chaquetas\nque se encuentren sucias\ny te las lavamos."
+                android:textColor="@color/white"
+                android:textSize="15pt"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100px"
+            >
+
+            <ImageView
+                android:id="@+id/change"
+                android:layout_width="124dp"
+                android:layout_height="124dp"
+                android:layout_marginLeft="5px"
+                android:padding="10px"
+                app:srcCompat="@drawable/exchang" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="282dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/comicboys"
+                android:lines="3"
+                android:padding="20px"
+                android:text="¿Cansado de usar lo\nmismo? trae tu chaqueta\ny cámbiala."
+                android:textColor="@color/white"
+                android:textSize="15pt" />
+        </TableRow>
+
+    </TableLayout>
+    //>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

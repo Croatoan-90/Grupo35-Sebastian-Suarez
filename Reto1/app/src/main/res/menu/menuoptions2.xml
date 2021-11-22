@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/icon"
+        android:icon="@drawable/icon"
+        android:title="Icono"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/menu2"
+        android:icon="@drawable/icon"
+        android:title="Servicios" />
+    <item
+        android:id="@+id/menu3"
+        android:title="Sucursales" />
+</menu>
