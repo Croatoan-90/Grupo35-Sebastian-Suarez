@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Red"
+    tools:context=".Fragment_Sucursales">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/servTit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Yellow"
+        android:fontFamily="@font/cooper"
+        android:text="SUCURSALES"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/Red"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="681dp"
+        android:layout_marginTop="210px"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comicboys"
+            android:padding="20px"
+            android:text="Conoce nuestras Sucursales:"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18pt" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comicboys"
+            android:padding="20px"
+            android:text="Calle 48 # 6-25"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18pt" />
+
+        <TextView
+            android:id="@+id/tel1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comicboys"
+            android:text="tel:259 98 74"
+            android:textAlignment="center"
+            android:textColor="@color/Beige"
+            android:textSize="15pt"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150px"
+            android:fontFamily="@font/comicboys"
+            android:padding="20px"
+            android:text="Carrera 15 #107b-01"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18pt" />
+
+        <TextView
+            android:id="@+id/tel2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comicboys"
+            android:lines="2"
+            android:text="tel:301 569 87 55\n987 77 42"
+            android:textAlignment="center"
+            android:textColor="@color/Beige"
+            android:textSize="15pt"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150px"
+            android:fontFamily="@font/comicboys"
+            android:padding="20px"
+            android:text="Carrera 72 #154-17"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18pt" />
+
+        <TextView
+            android:id="@+id/tel3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comicboys"
+            android:text="tel:635 89 89"
+            android:textAlignment="center"
+            android:textColor="@color/Beige"
+            android:textSize="15pt"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+</FrameLayout>

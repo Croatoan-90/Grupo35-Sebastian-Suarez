@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Red"
+    tools:context=".Fragment_Favoritos">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/servTit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Yellow"
+        android:fontFamily="@font/cooper"
+        android:text="FAVORITOS"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/Red"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/comicboys"
+        android:text="Elementos favoritos del usuario"
+        android:textColor="@color/Yellow"
+        android:textSize="15pt" />
+
+</FrameLayout>
